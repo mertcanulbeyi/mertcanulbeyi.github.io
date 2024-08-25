@@ -1,0 +1,55 @@
+h1 {
+    padding: 20px;
+    text-align: center;
+    color: #0d6efd;
+}
+
+h3 {
+    margin-top: 5px;
+    color: #0d6efd;
+}
+
+h5 {
+    margin-top: 15px;
+    color: #0d6efd;
+}
+
+.todoAciklamalari {
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.renksecimi {
+    margin-top: 8px;
+    margin-bottom: 12px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+    
+.color-buttons {
+    display: flex;
+    gap: 10px;
+}
+    
+.color-btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+    
+.color-btn:hover {
+    transform: scale(1.2);
+}
+    
+.selected {
+    transform: scale(1.2);
+}
